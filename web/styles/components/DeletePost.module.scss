@@ -1,0 +1,58 @@
+#messageBoxPhotoContainer {
+  padding: 0;
+  :hover {
+    cursor: pointer;
+  }
+}
+
+#messageBoxPhoto {
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  margin: 0;
+}
+
+#messageBoxUsername {
+  padding: 0;
+  margin: 0;
+}
+
+#usernameText {
+  padding: 0;
+  margin: 0 0 0 10px;
+}
+
+#messageBoxMessage {
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+
+#deleteDarkMode {
+  background: #303030;
+  color: white;
+  border: 1px solid #303030;
+
+  &:focus {
+    border: 1px solid #303030;
+  }
+}
+
+#deleteDarkModeTextBox {
+  background: #303030;
+  color: white;
+
+  border: 1px solid black;
+
+  &:focus {
+    border: 1px solid black;
+  }
+}
+
+#deleteLightMode {
+  background: white;
+  border: 1px solid white;
+
+  &:focus {
+    border: 1px solid white;
+  }
+}

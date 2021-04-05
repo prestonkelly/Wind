@@ -1,0 +1,34 @@
+#settingContainer {
+  justify-content: center;
+  align-items: center;
+  max-width: 450px;
+}
+
+#settingDiv {
+  padding-top: 15px;
+}
+
+#saveButton {
+  justify-content: center;
+  align-items: center;
+}
+
+#profilePhoto {
+  width: 250px;
+  height: 250px;
+}
+
+#settingsDarkMode {
+  color: white;
+}
+
+#settingsDarkModeForm {
+  color: white;
+  background: #303030;
+
+  border: 1px solid #303030;
+
+  &:focus {
+    border: 1px solid #303030;
+  }
+}

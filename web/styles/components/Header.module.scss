@@ -1,0 +1,46 @@
+
+#loginPageDiv {
+  background: white;
+  padding: 10px 0 10px 0;
+}
+
+#loginButton {
+  color: black;
+}
+
+#homePageDark {
+  background: #121212;
+  margin-bottom: 10px;
+
+}
+
+#homePageLight {
+  background: white;
+  margin-bottom: 10px;
+
+}
+
+#headerFontLight {
+  color: #121212;
+
+  &:hover {
+    background: none;
+  }
+}
+
+#headerFontDark {
+  color: white;
+
+  &:hover {
+    background: none;
+  }
+}
+
+#homePageContainer {
+  padding: 10px 50px 10px 50px;
+}
+
+#darkNavToggle {
+  filter: invert(100%);
+}
+

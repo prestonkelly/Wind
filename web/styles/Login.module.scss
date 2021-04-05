@@ -1,0 +1,12 @@
+$font-size: 50px;
+
+#loginContainer {
+  min-height: 100vh - 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loginDiv {
+  width: 350px;
+}

@@ -1,0 +1,134 @@
+#messageBox {
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+#messageBoxPhotoContainer {
+  padding: 0;
+  :hover {
+    cursor: pointer;
+  }
+}
+
+#messageBoxPhoto {
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  margin: 0;
+}
+
+#messageBoxUsername {
+  padding: 0;
+  margin: 0;
+}
+
+#usernameText {
+  padding: 0;
+  margin: 0 0 0 10px;
+}
+
+#messageBoxMessage {
+  padding: 10px 0 10px 0;
+  margin: 0;
+
+}
+
+#messageBoxCol {
+  margin: 0;
+
+}
+
+#messageBoxIconLiked {
+  fill: red;
+  padding: 0;
+  margin: 0;
+  :hover {
+    cursor: pointer;
+  }
+}
+
+#messageBoxIcon {
+  pointer-events: visible;
+
+  :hover {
+    cursor: pointer;
+  }
+}
+
+#editPostIcon {
+  width: 40px;
+  height: 28px;
+  cursor: pointer;
+  outline: none;
+}
+
+.postsNavDrop {
+
+  :hover {
+    color: #121212;
+  }
+
+  :active {
+    background: transparent;
+  }
+
+  :after {
+    display: none;
+  }
+}
+
+#postDarkMode {
+  background: #303030;
+  color: white;
+}
+
+#replyLightMode {
+  background: white;
+  border: 1px solid white;
+
+  &:focus {
+    border: 1px solid white;
+  }
+}
+
+#replyDarkMode {
+  background: #303030;
+  color: white;
+  border: 1px solid #303030;
+
+  &:focus {
+    border: 1px solid #303030;
+  }
+}
+
+#replyCardDarkMode {
+  background: #303030;
+  color: white;
+  border: 1px solid black;
+
+  &:focus {
+    border: 1px solid black;
+  }
+}
+
+#replyLinkLightMode {
+  border-left: 6px solid #ced4da;
+  height: 15px;
+  margin-left: 10px;
+}
+
+#replyLinkDarkMode {
+  border-left: 6px solid black;
+  height: 15px;
+  margin-left: 10px;
+}
+
+#getRepliesLinkLightMode {
+  border-bottom: 5px solid #ced4da;
+  height: 15px;
+}
+
+#getRepliesLinkDarkMode {
+  border-bottom: 5px solid black;
+  height: 15px;
+}

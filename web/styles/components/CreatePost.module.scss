@@ -1,0 +1,38 @@
+#postSectionDark {
+  background: #303030;
+  color: white;
+  border: 1px solid #303030;
+
+  &:focus {
+    border: 1px solid #303030;
+  }
+}
+
+#postSectionLight {
+  background: white;
+  color: black;
+}
+
+#postButtonDark {
+  margin-top: 2px;
+  border: 1px solid #303030;
+  background: #303030;
+  color: white;
+  margin-bottom: 20px;
+  &:hover {
+    background: #121212;
+    color: white;
+  }
+}
+
+#postButtonLight {
+  margin-top: 2px;
+  border: 1px solid #ced4da;
+  background: white;
+  margin-bottom: 20px;
+  color: #121212;
+  &:hover {
+    background: #ced4da;
+
+  }
+}
