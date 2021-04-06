@@ -55,6 +55,8 @@ password: password1
 
 While searching for a challenging project to work on during my final semester in the College of Business at UCF, I settled on creating a social media website from scratch. I built on top of my previous experience and explored topics such as Redux and Axios Interceptors, constantly trying to challenge myself while learning from my mistakes along the way. This project allowed me to grow as a developer, and I focused on creating quality work that could be showcased on my resume.
 
+#### [More photos are available here](https://github.com/prestonkelly/Wind/tree/master/readmePhotos)
+
 [![Product Screen Shot][product-screenshot]](http://ec2-34-207-154-73.compute-1.amazonaws.com)
 
 
