@@ -45,7 +45,10 @@
   </ol>
 </details>
 
-
+### Demo account details
+user: demo
+</br>
+password: password1
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
