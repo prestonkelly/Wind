@@ -137,8 +137,7 @@ Distributed under the MIT License. See [MIT-LICENSE](https://github.com/git/git-
    AWS_REGION=
    AWS_REDIS_ADDR=
    ```
-5. Uncomment out lines 50-53 and 71-88 on the [dbConnect.go](https://github.com/prestonkelly/Wind/blob/master/api/controllers/dbConnect.go) file, this is for initial database setup. Register one user and, you can comment out for further runs of the program.
-6. Start up the frontend and backend and register an initial user to initialize postgresql tables.
+5. Start up the frontend and backend and register an initial user to initialize postgresql tables.
    ```
    cd web
    npm run dev
